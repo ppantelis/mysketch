@@ -1,0 +1,66 @@
+body{
+	background-color: pink;
+	font-family: Arial;
+	font-size: 25px;
+}
+
+
+
+
+#bar{
+	position: fixed;
+
+	width: 99%;
+	height: 40px;
+
+	background: #B41A1A;
+	z-index: 1;
+	padding: 10px 10px 0px 10px;
+	margin: -10px 0 0 -10px;
+}
+input{
+	height: 30px;
+}
+.hereis{
+	color:white;
+	font-weight: bold;
+}
+.hereisnotbold{
+	font-weight: normal;
+}
+.points{
+	color:white;
+	font-weight:  bold;
+	float:right;
+}
+#points{
+	color:white;
+	font-weight:  bold;
+	float:right;
+}
+
+
+
+
+#board{
+	display: table;
+
+	width: 1800px;
+	height: 700px;
+	
+	border : 5px dotted #B41A1A;
+	margin:auto;
+	margin-top: 60px;
+}
+.tile{
+	display: inline-block;
+
+	width: 110px;
+	height: 110px;
+	
+	margin: 2px 0 0 2px;
+	background-color: red;
+
+	opacity: 1;
+}
+
