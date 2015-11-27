@@ -1,0 +1,120 @@
+body{
+	background-color: #4E4343;
+	margin: auto;
+}
+#navbar_cont{
+	height: 70px;
+	/*border-bottom: 2px solid #C6B4B4;*/
+}
+#navbar{
+	float:right;
+	width: 30%;
+	height: 70px;
+	margin-bottom: 100px;
+}
+#navbar a span{
+	margin-right: 10px;
+}
+#navbar a span:hover{
+	color:#C6B4B4;
+	background-color: #827D78;
+	border-radius: 20%;
+}
+#usericon{
+	width: 60px;
+	height: 50px;
+	border-radius: 20%;
+}
+#logoutform{
+	display: inline-block;
+}
+
+
+
+
+#container{
+	width: 30%;
+	margin:auto;
+	clear:both;
+
+}
+a{
+	font-size: 25px;
+	font-family: Impact;
+	color:#C6B4B4;
+	text-decoration: none;
+}
+a:hover{
+	color:white;
+}
+h2{
+	font-size: 35px;
+	font-family: Impact;
+	color:#C6B4B4;
+	text-align: center;
+}
+h2:hover{
+	color: white;
+}
+#homeimage{
+	width:100%;
+	border: 5px dotted #C6B4B4;
+	border-radius: 20%;
+}
+#text_input{
+	
+	width:100%;
+	height:30px;
+	border-radius: 20%;
+	border: 2px dotted #C6B4B4;
+	background-color: #DAC5C5;
+	
+	font-family: Impact;
+	font-size: 20px;
+	text-align: left;
+	color:#6C5F5F;
+}
+#text_input:hover,#text_input:focus{
+	background-color: white;
+	color:black;
+}
+
+#button_div{
+	margin-top: 0.3em;
+}
+.button{
+
+	font-size: 20px;
+	font-family: Impact;
+	color:black;
+
+	border-radius: 20%;
+	border: 2px dotted #C6B4B4;
+	background-color: #C6B4B4;
+}
+.button:hover{
+	background-color: white;
+}
+#submit_button{
+	width: 50%;
+}
+#lucky_button{
+	width: 49%;
+}
+
+
+
+
+
+
+#footer{
+	text-align: center;
+	margin: auto;
+	margin-top: 250px;
+	border-top: 2px solid #C6B4B4;
+	padding-top: 20px;
+}
+#footer a{
+	font-size: 15px;
+	margin-right: 30px;
+}
